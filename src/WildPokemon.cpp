@@ -117,7 +117,6 @@ void WildPokemon::ShowStatus() {
        << "      Strength: "  << attack       << endl;
   if (current_trainer && IsAlive()) {
     cout << "  Stalking:  " << current_trainer->GetName() << "...\n";
-    cout << current_trainer;
   } else {
     cout << "  Stalking:  n/a\n";
   }

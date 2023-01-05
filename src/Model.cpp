@@ -69,7 +69,7 @@ Model::~Model() {
        GameObjectIter != object_ptrs.end();
        ++GameObjectIter) {
     (*GameObjectIter)->~GameObject();
-    *GameObjectIter = NULL;
+    //*GameObjectIter = NULL;
     //delete *GameObjectIter;
   }
 cout << "Model destructed\n\n"
@@ -84,6 +84,10 @@ cout
 <<"  | | |   | .'|   | '_|_ -| |  _| . |  _| |   __| | .'| | | |   | . |__|\n"
 <<"  |_| |_|_|__,|_|_|_,_|___| |_| |___|_|   |__|  |_|__,|_  |_|_|_|_  |__|\n"
 <<"                                                      |___|     |___|\n";
+cin.clear();
+cin.ignore(1000, '\n');
+cout << "(Any entry to exit)";
+getchar();
 }
 
 
