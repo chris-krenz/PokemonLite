@@ -28,10 +28,8 @@ g++ main.cpp Model.cpp View.cpp GameCommand.cpp Point2D.cpp Vector2D.cpp GameObj
 
 /* TODO: To Do List
  - Final TODOs
- - Simplify code
- - Short comment on every block?
- - More testing
- - Battle system?
+ - Save states
+ - Battle system
 */
 
 int main() {
